@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /*background-color: #FFFAFA;*/
+    font-family: "chalkboard";
+    font-size: 15px;
+    color: #2F4F4F;
+    overflow-y: scroll;
+}
+
+div.webname{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #A52A2A;
+    font-family: "Giddyup Std";
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 40px;
+}
+
+span.err{
+	color: red;
+	font-family: "Geneva";
+}
+
+div.subtitle{
+    font-size: 25px;
+    color: #006400;
+    font-family: "Geneva";
+    font-style: italic;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+div.oper{
+    margin-right: 20px;
+}
+
+div.oper ul.faceul, div.del ul.faceul{
+    list-style-type: none;
+}
+
+div.oper ul.faceul li, div.del ul.faceul li{
+    float: right;
+    margin-right: 20px;
+}
+
+div.oper ul.faceul li a:link{
+    font-size: 18px;
+    color: #DC143C;
+    text-decoration: none;
+}
+
+div.oper ul.faceul li a:hover{
+    text-decoration: underline;
+}
+
+div.oper ul.faceul li a:visited{
+    color: #DC143C;
+}
+
+div.stories{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+div.comments{
+    margin-bottom: 150px;
+}
+
+div.stories, div.comments{ 
+    width: 70%;
+    margin-left: 15%;
+}
+
+div.style{
+    font-family: "American Typewriter";
+    font-size: 25px;
+    border-bottom: solid 3px #DC143C;
+    color: #5F9EA0;
+    width: 70%;
+}
+
+div.onestory, div.onecomment{
+    background-color: white;
+    padding: 10px 10px;
+}
+
+div.onestory{
+    border-bottom: solid 1px #696969;
+}
+
+div.onecomment{
+    border-bottom: solid 1px #4682B4;
+}
+
+div.title a:link{
+    font-size: 20px;
+    color: #F08080;
+    text-decoration: none;
+}
+
+div.title a:hover{
+    font-weight: bold;
+}
+
+div.title a:visited{
+    color: #F08080;
+}
+
+div.date{
+    font-size: 10px;
+    text-align: right;
+}
+
+div.del{
+    text-align: right;
+}
+
+div.del a:link{
+    font-size: 10px;
+    color:#008B8B;
+}
+
+div.del a:visited{
+    color:#008B8B;
+}

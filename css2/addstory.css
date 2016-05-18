@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /*background-color: #FFFAFA;*/
+    overflow-y: scroll;
+}
+
+div.webname{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #A52A2A;
+    font-family: "Giddyup Std";
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 40px;
+}
+
+div.write{
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 15%;
+    background-color: white;
+    border-radius:15px;
+    padding: 20px 20px;
+    text-indent: 2em;
+    margin-bottom: 150px;
+}
+
+div.write input.title{
+    height: 30px;
+    border: solid 1px #DC143C;
+    color: #2F4F4F;
+    font-family: "chalkboard";
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 5px 3px;
+}
+
+div.write textarea.contents{
+    border: solid 1px #DC143C;
+    color: #2F4F4F;
+    font-family: "chalkboard";
+    font-size: 15px;
+    border-radius:15px;
+    padding: 10px 10px;
+}
+
+div.buttonstyle{
+    margin-left: 70%;
+    margin-bottom: 20px;
+}
+
+div.buttonstyle button.button{
+    font-family: "chalkboard";
+    margin-right: 30px;
+    font-size: 15px;
+    display: inline-block;
+    color: #DC143C;
+    text-align: center;
+    background-color: #FFC0CB;
+    padding: 5px 5px;
+    cursor: pointer;
+}
