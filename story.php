@@ -55,7 +55,7 @@
 </div>
 <div class="list">
     <?php
-    require 'database.php';
+    require 'database2.php';
     
     //Get the story's id
     $story_id=$_GET["id"];

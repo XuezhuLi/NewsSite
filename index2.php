@@ -111,7 +111,7 @@
 </div>
 <div class="list">
     <?php
-    require 'database.php';
+    require 'database2.php';
 
     $stmt = $mysqli->prepare("select * from story");
     if(!$stmt){
